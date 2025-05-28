@@ -1,0 +1,147 @@
+{
+  "sprite_info": {
+    "width": 16,
+    "height": 16,
+    "description": "Desert biome character sprites"
+  },
+  "color_palette": {
+    ".": "transparent",
+    "O": "#FFA500",
+    "o": "#FF8C00",
+    "B": "#8B4513",
+    "b": "#A0522D",
+    "Y": "#FFFF00",
+    "y": "#FFD700",
+    "T": "#D2B48C",
+    "t": "#F5DEB3",
+    "C": "#40E0D0",
+    "c": "#00CED1",
+    "K": "#000000",
+    "k": "#696969",
+    "W": "#FFFFFF",
+    "w": "#F0F0F0",
+    "R": "#FF0000",
+    "r": "#8B0000",
+    "S": "#FDBCB4",
+    "s": "#F5A88E",
+    "D": "#DEB887",
+    "d": "#D2691E"
+  },
+  "sprites": {
+    "sand_scorpion": {
+      "name": "Sand Scorpion",
+      "frames": {
+        "idle": [
+          "................",
+          "................",
+          "......oo........",
+          ".....oooo.......",
+          "....ooOOoo......",
+          "....oOOOOo......",
+          "...oOKOOKOo.....",
+          "...oOOOOOOo.....",
+          "....ooOOoo......",
+          ".....oooo.......",
+          "...oo.oo.oo.....",
+          "..oo..oo..oo....",
+          ".oo...oo...oo...",
+          "oo....oo....ooRR",
+          "......oo......RR",
+          "................"
+        ]
+      }
+    },
+    "desert_bandit": {
+      "name": "Desert Bandit",
+      "frames": {
+        "idle": [
+          "....tttttt......",
+          "...ttTTTTtt.....",
+          "..ttTTTTTTtt....",
+          "..tTTTTTTTTt....",
+          "..SsssssssS.....",
+          "..SsKssKssS.....",
+          "..SsssssssS.....",
+          "..SsrrrrrsS.....",
+          "...SSsssSSS.....",
+          "....bbbbbb......",
+          "...bbBBBBbb.....",
+          "...bBBBBBBb.....",
+          "...BBbbbbBB.....",
+          "...BBbbbbBB.....",
+          "...BB...BB......",
+          "..bbb...bbb....."
+        ]
+      }
+    },
+    "dust_devil": {
+      "name": "Dust Devil",
+      "frames": {
+        "idle": [
+          "................",
+          "....yyyyyy......",
+          "...yyYYYYyy.....",
+          "..yyYyYYyYyy....",
+          "..yYYyYYyYYy....",
+          "..YYkkYYkkYY....",
+          "..YYYyyyyYYY....",
+          "...YYYyyYYY.....",
+          "....yYYYYy......",
+          ".....yyyy.......",
+          "......yy........",
+          ".....yyyy.......",
+          "....yyyyyy......",
+          "...yy....yy.....",
+          "..yy......yy....",
+          "................"
+        ]
+      }
+    },
+    "oasis_guardian": {
+      "name": "Oasis Guardian",
+      "frames": {
+        "idle": [
+          "....cccccc......",
+          "...ccCCCCcc.....",
+          "..ccCCCCCCcc....",
+          "..cCCCCCCCCc....",
+          "..CCCCCCCCCc....",
+          "..CCwCCCwCCC....",
+          "..CCCCCCCCCC....",
+          "..CcwwwwwwcC....",
+          "...cCCCCCCc.....",
+          "....cccccc......",
+          "...cccccccc.....",
+          "..ccCCccCCcc....",
+          "..cC..cc..Cc....",
+          "..cc..cc..cc....",
+          "..cc..cc..cc....",
+          "................"
+        ]
+      }
+    },
+    "sand_worm": {
+      "name": "Sand Worm",
+      "frames": {
+        "idle": [
+          "................",
+          "................",
+          "....dddddd......",
+          "...ddDDDDdd.....",
+          "..ddDDDDDDdd....",
+          "..dDDDDDDDDd....",
+          "..DDkkDDkkDD....",
+          "..DDDDDDDDDD....",
+          "..DDrrrrrrDD....",
+          "..dDDDDDDDDd....",
+          "...ddDDDDdd.....",
+          "....ddDDdd......",
+          ".....dddd.......",
+          "......dd........",
+          "................",
+          "................"
+        ]
+      }
+    }
+  }
+}

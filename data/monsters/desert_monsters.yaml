@@ -1,0 +1,67 @@
+# Desert Biome Monsters - Themed variations
+
+monsters:
+  - name: "Sand Scorpion"
+    species: "scorpion"
+    hp: 40
+    attack: 18
+    speed: 1.2
+    color: "orange"
+    behavior:
+      - "aggressive"
+      - "venomous"
+    loot:
+      gold: 12
+      item_chance: 0.3
+    
+  - name: "Desert Bandit"
+    species: "human"
+    hp: 60
+    attack: 20
+    speed: 1.8
+    color: "brown"
+    behavior:
+      - "aggressive"
+      - "intelligent"
+    loot:
+      gold: 25
+      item_chance: 0.5
+    
+  - name: "Dust Devil"
+    species: "elemental"
+    hp: 35
+    attack: 15
+    speed: 2.5
+    color: "yellow"
+    behavior:
+      - "aggressive"
+      - "ethereal"
+    loot:
+      gold: 8
+      item_chance: 0.2
+    
+  - name: "Oasis Guardian"
+    species: "water_spirit"
+    hp: 80
+    attack: 25
+    speed: 1.0
+    color: "blue"
+    behavior:
+      - "defensive"
+      - "magical"
+    loot:
+      gold: 35
+      item_chance: 0.6
+    
+  - name: "Sand Worm"
+    species: "worm"
+    hp: 100
+    attack: 30
+    speed: 0.8
+    color: "brown"
+    behavior:
+      - "aggressive"
+      - "burrowing"
+    loot:
+      gold: 50
+      item_chance: 0.7

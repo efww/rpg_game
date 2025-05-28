@@ -1,0 +1,190 @@
+{
+  "sprite_info": {
+    "width": 16,
+    "height": 16,
+    "description": "JRPG-style chibi character sprites with big heads and small bodies"
+  },
+  "color_palette": {
+    ".": "transparent",
+    "S": "#FDBCB4",
+    "s": "#F5A88E",
+    "H": "#8B4513",
+    "h": "#654321",
+    "E": "#000000",
+    "e": "#FFFFFF",
+    "R": "#FF0000",
+    "r": "#8B0000",
+    "B": "#0000FF",
+    "b": "#000080",
+    "G": "#00FF00",
+    "g": "#006400",
+    "Y": "#FFFF00",
+    "y": "#FFD700",
+    "P": "#800080",
+    "p": "#4B0082",
+    "O": "#FFA500",
+    "o": "#FF8C00",
+    "W": "#FFFFFF",
+    "w": "#F0F0F0",
+    "K": "#000000",
+    "k": "#696969"
+  },
+  "sprites": {
+    "player": {
+      "name": "Hero",
+      "frames": {
+        "idle": [
+          "....hhhhhh......",
+          "...hHHHHHHh.....",
+          "..hHHHHHHHHh....",
+          "..HssssssssH....",
+          "..SsssssssS.....",
+          "..SsEssEssS.....",
+          "..SsssssssS.....",
+          "..SsrrrrrsS.....",
+          "...SSsssSSS.....",
+          "....RRRRR.......",
+          "...RRRRRRR......",
+          "...RRrrrrR......",
+          "...BBbbbbB......",
+          "...BBbbbbB......",
+          "...BB...BB......",
+          "..bbb...bbb....."
+        ],
+        "walk1": [
+          "....hhhhhh......",
+          "...hHHHHHHh.....",
+          "..hHHHHHHHHh....",
+          "..HssssssssH....",
+          "..SsssssssS.....",
+          "..SsEssEssS.....",
+          "..SsssssssS.....",
+          "..SsrrrrrsS.....",
+          "...SSsssSSS.....",
+          "....RRRRR.......",
+          "...RRRRRRR......",
+          "...RRrrrrR......",
+          "...BBbbbbB......",
+          "..BBBbbbbB......",
+          ".BB.....BB......",
+          "bbb.....bbb....."
+        ]
+      }
+    },
+    "forest_goblin": {
+      "name": "Forest Goblin",
+      "frames": {
+        "idle": [
+          "................",
+          "....gggggg......",
+          "...ggGGGGgg.....",
+          "..ggGGGGGGgg....",
+          "..gGGGGGGGGg....",
+          "..GGGKggKGGG....",
+          "..GGGggggGGG....",
+          "..GGrrrrrrGG....",
+          "...GGGggGGG.....",
+          "....gggggg......",
+          "...ggggggg......",
+          "...gggggggg.....",
+          "...kkkkkkkk.....",
+          "...kkkkkkkk.....",
+          "...kk...kk......",
+          "..kkk...kkk....."
+        ]
+      }
+    },
+    "wild_boar": {
+      "name": "Wild Boar",
+      "frames": {
+        "idle": [
+          "................",
+          "................",
+          "....oooooo......",
+          "...oOOOOOOo.....",
+          "..oOOOOOOOOo....",
+          "..OOkOOOkOOO....",
+          "..OOOOOOOOOo....",
+          "..owwwwwwwwo....",
+          "..oOOOOOOOOo....",
+          "...oooooooo.....",
+          "..oooooooooo....",
+          "..ooooooooooo...",
+          "..oo..oo..oo....",
+          "..oo..oo..oo....",
+          "..oo..oo..oo....",
+          "................"
+        ]
+      }
+    },
+    "wolf": {
+      "name": "Wolf",
+      "frames": {
+        "idle": [
+          "................",
+          "....kkkkkk......",
+          "...kwwwwwwk.....",
+          "..kwwwwwwwwk....",
+          "..wwwwwwwwww....",
+          "..wwKwwwKwww....",
+          "..wwwwwwwwww....",
+          "..wwrrrrrrww....",
+          "...wwwwwwww.....",
+          "....kkkkkk......",
+          "...kkkkkkkk.....",
+          "..kkkkkkkkkkk...",
+          "..kk..kk..kk....",
+          "..kk..kk..kk....",
+          "..kk..kk..kk....",
+          "................"
+        ]
+      }
+    },
+    "slime": {
+      "name": "Slime",
+      "frames": {
+        "idle": [
+          "................",
+          "................",
+          "................",
+          "....bbbbbb......",
+          "...bBBBBBBb.....",
+          "..bBBBBBBBBb....",
+          "..BBBBBBBBBb....",
+          "..BBkBBBkBBB....",
+          "..BBBBBBBBB.....",
+          "..BBBwwwBBB.....",
+          "..BBBBBBBBB.....",
+          "..bBBBBBBBb.....",
+          "...bBBBBBb......",
+          "....bbbbbb......",
+          "................",
+          "................"
+        ]
+      }
+    },
+    "tree_sprite": {
+      "name": "Tree Ent",
+      "frames": {
+        "idle": [
+          "....gggggg......",
+          "...gGGGGGGg.....",
+          "..gGGgGGgGGg....",
+          "..gGGGGGGGGg....",
+          "..GGGGGGGGGg....",
+          "...gGGGGGgg.....",
+          "....HHhHHH......",
+          "....HhhhhH......",
+          "....HhKhKH......",
+          "....HhhhhH......",
+          "....HhrrrhH.....",
+          "....HhhhhH......",
+          "....HHhHHH......",
+          "....HH.HH.......",
+          "...HHH.HHH......",
+          "................"
+        ]
+      }
+    }
+  }
+}

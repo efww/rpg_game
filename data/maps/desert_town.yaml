@@ -1,0 +1,120 @@
+# Desert Town Map - A harsh desert environment with oasis
+
+map_info:
+  name: "Scorching Desert Town"
+  width: 35
+  height: 25
+  tile_size: 32
+  spawn_point:
+    x: 17
+    y: 20
+
+tile_types:
+  ".": 
+    name: "sand"
+    walkable: true
+    color: "#F4A460"
+  "#":
+    name: "rock_wall"
+    walkable: false
+    color: "#8B7355"
+  "~":
+    name: "oasis_water"
+    walkable: false
+    color: "#40E0D0"
+  "C":
+    name: "cactus"
+    walkable: false
+    color: "#228B22"
+  "S":
+    name: "sandstone"
+    walkable: true
+    color: "#DEB887"
+  "R":
+    name: "road"
+    walkable: true
+    color: "#D2691E"
+  "H":
+    name: "house_wall"
+    walkable: false
+    color: "#CD853F"
+  "D":
+    name: "door"
+    walkable: true
+    color: "#8B4513"
+  "M":
+    name: "market_stall"
+    walkable: false
+    color: "#FF6347"
+  "P":
+    name: "palm_tree"
+    walkable: false
+    color: "#006400"
+  "O":
+    name: "oasis_grass"
+    walkable: true
+    color: "#90EE90"
+  "W":
+    name: "well"
+    walkable: false
+    color: "#4682B4"
+
+layout:
+  - "###################################"
+  - "#.................................#"
+  - "#...C.........HHHHHHHH.......C....#"
+  - "#.............H.....H.............#"
+  - "#......C......H.....H.....C.......#"
+  - "#.............D.....D.............#"
+  - "#.............H.....H.............#"
+  - "#.....RRRRRRRRRRRRRRRRRRRRRR......#"
+  - "#.....R.......RRRRR........R......#"
+  - "#.....R..HHHHHHRRHHHHHH....R......#"
+  - "#.....R..H....DRD.....H....R......#"
+  - "#.....R..H....HRH.....H..W.R......#"
+  - "#.....R..HHHHHHRHHHHHHH....R......#"
+  - "#.....R........R...........R......#"
+  - "#.....RRRRRRRRRRRRRRRRRRRRRR......#"
+  - "#.................................#"
+  - "#...PPPP......MMMMM.......PPPP....#"
+  - "#..POOOOP.....M...M......POOOOP...#"
+  - "#.PO~~~~OP....M...M.....PO~~~~OP..#"
+  - "#.PO~~~~OP....M...M.....PO~~~~OP..#"
+  - "#..POOOOP.....MMMMM......POOOOP...#"
+  - "#...PPPP..................PPPP....#"
+  - "#..................S..............#"
+  - "#.................................#"
+  - "###################################"
+
+monster_spawns:
+  - x: 5
+    y: 5
+    monster_type: "Sand Scorpion"
+  - x: 30
+    y: 5
+    monster_type: "Sand Scorpion"
+  - x: 10
+    y: 15
+    monster_type: "Desert Bandit"
+  - x: 25
+    y: 15
+    monster_type: "Desert Bandit"
+  - x: 17
+    y: 8
+    monster_type: "Dust Devil"
+  - x: 8
+    y: 20
+    monster_type: "Oasis Guardian"
+  - x: 27
+    y: 20
+    monster_type: "Oasis Guardian"
+
+# Define map connections/exits
+exits:
+  - x: 17
+    y: 24
+    direction: "south"
+    destination: "forest_map"
+    destination_spawn:
+      x: 15
+      y: 1

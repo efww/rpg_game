@@ -1,0 +1,85 @@
+{
+  "world_info": {
+    "name": "Seamless RPG World",
+    "chunk_size": 32,
+    "tile_size": 32,
+    "chunks_x": 3,
+    "chunks_y": 3,
+    "view_distance": 1
+  },
+  "chunk_layout": [
+    ["forest_0_0", "forest_0_1", "forest_0_2"],
+    ["desert_1_0", "forest_1_1", "forest_1_2"],
+    ["forest_2_0", "forest_2_1", "forest_2_2"]
+  ],
+  "chunks": {
+    "forest_0_0": {
+      "world_x": 0,
+      "world_y": 0,
+      "biome": "forest",
+      "map_file": "data/maps/chunks/forest_0_0.yaml",
+      "name": "Northern Forest"
+    },
+    "forest_0_1": {
+      "world_x": 1,
+      "world_y": 0,
+      "biome": "forest",
+      "map_file": "data/maps/chunks/forest_0_1.yaml",
+      "name": "North Forest"
+    },
+    "forest_0_2": {
+      "world_x": 2,
+      "world_y": 0,
+      "biome": "forest",
+      "map_file": "data/maps/chunks/forest_0_2.yaml",
+      "name": "Northeast Forest"
+    },
+    "desert_1_0": {
+      "world_x": 0,
+      "world_y": 1,
+      "biome": "desert",
+      "map_file": "data/maps/desert_town.yaml",
+      "name": "Western Desert"
+    },
+    "forest_1_1": {
+      "world_x": 1,
+      "world_y": 1,
+      "biome": "forest",
+      "map_file": "data/maps/forest_map.yaml",
+      "name": "Central Forest"
+    },
+    "forest_1_2": {
+      "world_x": 2,
+      "world_y": 1,
+      "biome": "forest",
+      "map_file": "data/maps/chunks/forest_1_2.yaml",
+      "name": "Eastern Forest"
+    },
+    "forest_2_0": {
+      "world_x": 0,
+      "world_y": 2,
+      "biome": "forest",
+      "map_file": "data/maps/chunks/forest_2_0.yaml",
+      "name": "Southwest Forest"
+    },
+    "forest_2_1": {
+      "world_x": 1,
+      "world_y": 2,
+      "biome": "forest",
+      "map_file": "data/maps/chunks/forest_2_1.yaml",
+      "name": "South Forest"
+    },
+    "forest_2_2": {
+      "world_x": 2,
+      "world_y": 2,
+      "biome": "forest",
+      "map_file": "data/maps/chunks/forest_2_2.yaml",
+      "name": "Southeast Forest"
+    }
+  },
+  "spawn_chunk": "forest_1_1",
+  "spawn_position": {
+    "x": 15,
+    "y": 10
+  }
+}

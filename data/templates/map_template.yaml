@@ -1,0 +1,67 @@
+# Map Template for RPG Game
+# This template defines the structure for map data files
+
+map_info:
+  name: "Template Map"
+  width: 20  # Number of tiles horizontally
+  height: 15 # Number of tiles vertically
+  tile_size: 40 # Size of each tile in pixels
+  spawn_point:
+    x: 10
+    y: 7
+
+# Tile types definition
+# Each character in the map layout corresponds to a tile type
+tile_types:
+  ".": 
+    name: "grass"
+    walkable: true
+    color: "green"
+  "#":
+    name: "wall"
+    walkable: false
+    color: "gray"
+  "~":
+    name: "water"
+    walkable: false
+    color: "blue"
+  "T":
+    name: "tree"
+    walkable: false
+    color: "darkgreen"
+  "S":
+    name: "stone"
+    walkable: true
+    color: "lightgray"
+  "P":
+    name: "path"
+    walkable: true
+    color: "brown"
+
+# Map layout using the tile type characters
+# Each row is a string of characters
+layout:
+  - "####################"
+  - "#..................#"
+  - "#....T....T....T...#"
+  - "#..................#"
+  - "#..~~~~....~~~~....#"
+  - "#..~~~~....~~~~....#"
+  - "#..................#"
+  - "#....PPPPPPPPPP....#"
+  - "#..................#"
+  - "#..T............T..#"
+  - "#..................#"
+  - "#....S....S....S...#"
+  - "#..................#"
+  - "#..................#"
+  - "####################"
+
+# Monster spawn points (optional)
+monster_spawns:
+  - x: 5
+    y: 5
+    monster_type: "Forest Goblin"
+  - x: 15
+    y: 10
+    monster_type: "Wild Boar"

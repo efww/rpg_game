@@ -1,0 +1,64 @@
+{
+  "game_info": {
+    "name": "Modular RPG",
+    "version": "0.1.0",
+    "description": "Data-driven RPG with multiple biomes"
+  },
+  "biomes": {
+    "forest": {
+      "name": "Enchanted Forest",
+      "map_file": "data/maps/forest_map.yaml",
+      "monster_file": "data/monsters/forest_monsters_en.yaml",
+      "sprite_file": "data/sprites/character_sprites.json",
+      "music": "forest_theme.ogg",
+      "ambient_color": "#0A4A0A",
+      "weather": ["clear", "rain", "fog"]
+    },
+    "desert": {
+      "name": "Scorching Desert",
+      "map_file": "data/maps/desert_town.yaml",
+      "monster_file": "data/monsters/desert_monsters.yaml",
+      "sprite_file": "data/sprites/desert_sprites.json",
+      "music": "desert_theme.ogg",
+      "ambient_color": "#8B7355",
+      "weather": ["hot", "sandstorm", "clear"]
+    },
+    "ice": {
+      "name": "Frozen Tundra",
+      "map_file": "data/maps/ice_caves.yaml",
+      "monster_file": "data/monsters/ice_monsters.yaml",
+      "sprite_file": "data/sprites/ice_sprites.json",
+      "music": "ice_theme.ogg",
+      "ambient_color": "#B0E0E6",
+      "weather": ["snow", "blizzard", "clear"]
+    }
+  },
+  "starting_biome": "forest",
+  "player_config": {
+    "starting_hp": 100,
+    "starting_attack": 15,
+    "level_up_hp_bonus": 20,
+    "level_up_attack_bonus": 5
+  },
+  "items": {
+    "health_potion": {
+      "name": "Health Potion",
+      "type": "consumable",
+      "effect": "heal",
+      "value": 30,
+      "price": 50
+    },
+    "iron_sword": {
+      "name": "Iron Sword",
+      "type": "weapon",
+      "attack_bonus": 10,
+      "price": 200
+    },
+    "leather_armor": {
+      "name": "Leather Armor",
+      "type": "armor",
+      "defense_bonus": 5,
+      "price": 150
+    }
+  }
+}

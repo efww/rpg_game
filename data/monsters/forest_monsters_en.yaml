@@ -1,0 +1,61 @@
+# Forest area monsters (English version)
+monsters:
+  - name: "Forest Scout Goblin"
+    name_kr: "숲의 정찰병 고블린"
+    species: goblin
+    hp: 35
+    attack: 12
+    speed: 2.2
+    color: green
+    behavior: [patrol, aggressive, flee]
+    loot:
+      gold: 5
+      item_chance: 0.15
+
+  - name: "Giant Gray Wolf"
+    name_kr: "거대 회색늑대"
+    species: wolf
+    hp: 80
+    attack: 25
+    speed: 2.8
+    color: gray
+    behavior: [aggressive, ambush]
+    loot:
+      gold: 15
+      item_chance: 0.2
+
+  - name: "Toxic Slime"
+    name_kr: "독성 슬라임"
+    species: slime
+    hp: 120
+    attack: 18
+    speed: 0.8
+    color: purple
+    behavior: [defensive, patrol]
+    loot:
+      gold: 8
+      item_chance: 0.3
+
+  - name: "Shadow Spider"
+    name_kr: "그림자 거미"
+    species: spider
+    hp: 45
+    attack: 30
+    speed: 2.5
+    color: red
+    behavior: [ambush, aggressive, flee]
+    loot:
+      gold: 12
+      item_chance: 0.25
+
+  - name: "Wandering Orc Warrior"
+    name_kr: "방랑 오크 전사"
+    species: orc
+    hp: 150
+    attack: 35
+    speed: 1.5
+    color: green
+    behavior: [aggressive, defensive]
+    loot:
+      gold: 25
+      item_chance: 0.35

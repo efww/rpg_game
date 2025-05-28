@@ -1,0 +1,83 @@
+# Forest Map - Starting Area
+
+map_info:
+  name: "Southern Forest"
+  width: 30
+  height: 20
+  tile_size: 32
+  spawn_point:
+    x: 15
+    y: 10
+
+tile_types:
+  ".": 
+    name: "grass"
+    walkable: true
+    color: "darkgreen"
+  "#":
+    name: "wall"
+    walkable: false
+    color: "gray"
+  "~":
+    name: "water"
+    walkable: false
+    color: "blue"
+  "T":
+    name: "tree"
+    walkable: false
+    color: "green"
+  "S":
+    name: "stone"
+    walkable: true
+    color: "lightgray"
+  "P":
+    name: "path"
+    walkable: true
+    color: "brown"
+  "F":
+    name: "flower"
+    walkable: true
+    color: "pink"
+  "B":
+    name: "bush"
+    walkable: false
+    color: "green"
+
+layout:
+  - "##############################"
+  - "#TTTT........................#"
+  - "#T..T......F....F......T.....#"
+  - "#T.......PPPPPPPPPP....T.....#"
+  - "#........P........P..........#"
+  - "#...B....P...~~...P....B.....#"
+  - "#........P..~~~~..P..........#"
+  - "#........P..~~~~..P..........#"
+  - "#...T....P...~~...P....T.....#"
+  - "#........P........P..........#"
+  - "#........PPPPPPPPPP..........#"
+  - "#............................#"
+  - "#..S.....B........B.....S....#"
+  - "#............................#"
+  - "#...TTTT............TTTT.....#"
+  - "#...T..T....F..F....T..T.....#"
+  - "#...T..T............T..T.....#"
+  - "#...TTTT............TTTT.....#"
+  - "#............................#"
+  - "##############################"
+
+monster_spawns:
+  - x: 5
+    y: 3
+    monster_type: "Forest Goblin"
+  - x: 25
+    y: 3
+    monster_type: "Forest Goblin"
+  - x: 8
+    y: 12
+    monster_type: "Wild Boar"
+  - x: 22
+    y: 12
+    monster_type: "Wild Boar"
+  - x: 15
+    y: 16
+    monster_type: "Wolf"

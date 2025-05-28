@@ -1,0 +1,42 @@
+# 몬스터 템플릿 정의
+template_id: base_monster
+description: "기본 몬스터 템플릿"
+fields:
+  name:
+    type: string
+    required: true
+    description: "몬스터 이름"
+  
+  species:
+    type: enum
+    options: [goblin, orc, wolf, slime, skeleton, spider]
+    required: true
+    
+  stats:
+    hp:
+      type: integer
+      min: 10
+      max: 500
+    attack:
+      type: integer  
+      min: 5
+      max: 100
+    speed:
+      type: float
+      min: 0.5
+      max: 3.0
+      
+  color:
+    type: enum
+    options: [green, red, blue, purple, yellow, gray]
+    
+  behavior:
+    type: array
+    options: [aggressive, defensive, patrol, flee, ambush]
+    max_items: 3
+    
+  loot:
+    type: array
+    items:
+      - gold: [1, 50]
+      - item_chance: 0.1

@@ -1,0 +1,18 @@
+[package]
+name = "rpg_game"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rpg_game"
+path = "src/main.rs"
+
+[[bin]]
+name = "rpg_seamless"
+path = "src/main_seamless_fixed.rs"
+
+[dependencies]
+macroquad = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+serde_json = "1.0"

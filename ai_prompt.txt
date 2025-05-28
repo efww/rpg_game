@@ -1,0 +1,14 @@
+다음 YAML 템플릿을 기반으로 숲 지역에 서식하는 몬스터 5종을 생성해주세요.
+각 몬스터는 고유한 특성을 가져야 합니다.
+
+템플릿:
+- name: 몬스터 이름 (한글)
+- species: goblin, orc, wolf, slime, skeleton, spider 중 선택
+- hp: 10-500
+- attack: 5-100  
+- speed: 0.5-3.0
+- color: green, red, blue, purple, yellow, gray 중 선택
+- behavior: aggressive, defensive, patrol, flee, ambush 중 최대 3개
+- loot: gold 양과 아이템 드롭 확률
+
+출력 형식은 YAML로 해주세요.
